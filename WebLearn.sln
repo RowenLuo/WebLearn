@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebLearn", "WebLearn\WebLearn.csproj", "{82D220A8-CEA2-43CC-9D5D-BDEC043DFD37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie.csproj", "{EE56B663-003B-46F1-BA33-EFB0D96A555B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie.csproj", "{EE56B663-003B-46F1-BA33-EFB0D96A555B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{74CE7C24-089B-44D4-83F7-C0CC0D2B9A22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreLearn", "EFCoreLearn\EFCoreLearn.csproj", "{4A2AF54F-6D3B-4CF5-BB2A-2CEC9B972B7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversity", "ContosoUniversity\ContosoUniversity.csproj", "{6A82D6B4-E3AC-48D9-B9C6-745C2C013B16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{9CAA7694-DABF-4D0F-A196-30462E4AC945}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFLearn", "EFLearn\EFLearn.csproj", "{4CD6EE8E-F401-4003-998D-94924A4739DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoUniversity", "ContosoUniversity\ContosoUniversity.csproj", "{416FE397-34F1-46E4-8D0E-1CEDFFA16904}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,18 +27,18 @@ Global
 		{EE56B663-003B-46F1-BA33-EFB0D96A555B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE56B663-003B-46F1-BA33-EFB0D96A555B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE56B663-003B-46F1-BA33-EFB0D96A555B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{74CE7C24-089B-44D4-83F7-C0CC0D2B9A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74CE7C24-089B-44D4-83F7-C0CC0D2B9A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74CE7C24-089B-44D4-83F7-C0CC0D2B9A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74CE7C24-089B-44D4-83F7-C0CC0D2B9A22}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6A82D6B4-E3AC-48D9-B9C6-745C2C013B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A82D6B4-E3AC-48D9-B9C6-745C2C013B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A82D6B4-E3AC-48D9-B9C6-745C2C013B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A82D6B4-E3AC-48D9-B9C6-745C2C013B16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4CD6EE8E-F401-4003-998D-94924A4739DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4CD6EE8E-F401-4003-998D-94924A4739DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4CD6EE8E-F401-4003-998D-94924A4739DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4CD6EE8E-F401-4003-998D-94924A4739DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2AF54F-6D3B-4CF5-BB2A-2CEC9B972B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2AF54F-6D3B-4CF5-BB2A-2CEC9B972B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2AF54F-6D3B-4CF5-BB2A-2CEC9B972B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2AF54F-6D3B-4CF5-BB2A-2CEC9B972B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CAA7694-DABF-4D0F-A196-30462E4AC945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CAA7694-DABF-4D0F-A196-30462E4AC945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CAA7694-DABF-4D0F-A196-30462E4AC945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CAA7694-DABF-4D0F-A196-30462E4AC945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416FE397-34F1-46E4-8D0E-1CEDFFA16904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416FE397-34F1-46E4-8D0E-1CEDFFA16904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416FE397-34F1-46E4-8D0E-1CEDFFA16904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416FE397-34F1-46E4-8D0E-1CEDFFA16904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

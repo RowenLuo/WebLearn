@@ -12,9 +12,9 @@ namespace ContosoUniversity
 {
     public class DetailsModel : PageModel
     {
-        private readonly ContosoUniversity.Data.ContosoUniversityContext _context;
+        private readonly SchoolContext _context;
 
-        public DetailsModel(ContosoUniversity.Data.ContosoUniversityContext context)
+        public DetailsModel(SchoolContext context)
         {
             _context = context;
         }
@@ -28,7 +28,11 @@ namespace ContosoUniversity
                 return NotFound();
             }
 
-            Student = await _context.Student.FirstOrDefaultAsync(m => m.ID == id);
+            Student = await _context.Students
+                .Include(s => s.Enrollments)
+                .ThenInclude(e => e.Course)
+                .AsNoTracking()
+                .FirstOrDefaultAsync(m => m.ID == id);
 
             if (Student == null)
             {

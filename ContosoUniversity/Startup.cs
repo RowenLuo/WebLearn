@@ -27,8 +27,8 @@ namespace ContosoUniversity
         {
             services.AddRazorPages();
 
-            services.AddDbContext<ContosoUniversityContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("ContosoUniversityContext")));
+            services.AddDbContext<SchoolContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("SchoolContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
